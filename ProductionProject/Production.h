@@ -1,5 +1,7 @@
 #include <vector>
-class Production{
+
+class Production
+{
 public:
 	int someMethod(int a);
 	bool has6Elements(std::vector<int> numbers);

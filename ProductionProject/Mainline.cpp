@@ -26,7 +26,6 @@ int main()
 	Production p;
 	std::vector<int> m_input;
 	enterNumbers(m_input);
-
 	while (p.isInRange(m_input) == 0)
 	{
 		std::cout << "You have entered numbers outside of 1 - 46" << std::endl;

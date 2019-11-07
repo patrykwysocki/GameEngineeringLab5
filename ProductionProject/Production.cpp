@@ -4,6 +4,7 @@ int Production::someMethod(int a)
 {
 	return a - a;
 }
+
 bool Production::has6Elements(std::vector<int> numbers)
 {
 	bool result = true;
@@ -19,6 +20,7 @@ bool Production::has6Elements(std::vector<int> numbers)
 	}
 	return result;
 }
+
 bool Production::isInRange(std::vector<int> numbers)
 {
 	bool result = true;
@@ -35,6 +37,7 @@ bool Production::isInRange(std::vector<int> numbers)
 	}
 	return result;
 }
+
 bool Production::hasUniqueNums(std::vector<int> numbers)
 {
 	bool result = true;
